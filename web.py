@@ -52,9 +52,9 @@ with st.form("user_input_form"):
 
         with col3:
             requirements_options = np.unique(dataset['requirements'])
-            #requirements_options = list(requirements_options)
-            #first_4 = requirements_options[:4]
-            #requirements_options = requirements_options[4:] + first_4
+            requirements_options = list(requirements_options)
+            first_16 = requirements_options[:17]
+            requirements_options = requirements_options[17:] + first_16
             requirements = st.selectbox("requirements", requirements_options)
 
     with st.container():
@@ -229,3 +229,4 @@ if submit_button:
     else:
         st.write(f"SVM Classifier: 1 (Fraudulent)")
     
+
