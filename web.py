@@ -17,7 +17,7 @@ from sklearn.svm import SVC
 
 
 #Import dataset
-dataset = pd.read_csv("/Users/prashansagoel/Desktop/ECS171_Project/fake_job_postings.csv")
+dataset = pd.read_csv("fake_job_postings.csv")
 
 #Chose class to predict
 Class = "fraudulent"
