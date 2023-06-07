@@ -10,3 +10,9 @@ After you have streamlit downloaded on your computer, you can follow these steps
 3. In your terminal, run the following command: streamlit run web.py
 
 The streamlit front-end should now be open in your browser. 
+
+
+# Running Jupyter Notebooks/Models
+1. Download the directory.
+2. To run the FNN model, open FraudModel.ipynb with Jupyter Notebook. Note that there the Grid Search is left there, but did not take too long to run for us.
+3. To run the SVM model, open SVM Classifer.ipynb. 
