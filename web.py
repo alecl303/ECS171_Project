@@ -192,7 +192,7 @@ X = pd.DataFrame(data = X_rescaled, columns = X.columns)
 #splitting data into ratio 80:20
 data_train, data_test, class_train, class_test = train_test_split(X, y, test_size=0.2)
 
-#Setup model with select hyperparams
+#Setup model with select hyperparams found from gridsearch
 mlp = MLPClassifier(activation='logistic', alpha=0.001, hidden_layer_sizes=(100, 100), learning_rate_init=0.15, max_iter=800)
 
 #Fit the model to data
