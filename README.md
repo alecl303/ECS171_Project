@@ -1,4 +1,4 @@
-# ECS171_Project
+# ECS171 Project: Group 12
 
 
 # Running the front-end
