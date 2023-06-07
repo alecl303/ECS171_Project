@@ -10,5 +10,3 @@ After you have streamlit downloaded on your computer, you can follow these steps
 3. In your terminal, run the following command: streamlit run web.py
 
 The streamlit front-end should now be open in your browser. 
-
-<img width="807" alt="Screen Shot 2023-06-06 at 7 49 43 PM" src="https://github.com/alecl303/ECS171_Project/assets/83670836/46d90dec-dba8-4302-8ec1-ef52b375106f">
